@@ -1,0 +1,22 @@
+".text.html.vue":
+  "Single File Vue Component":
+    "prefix": "tem"
+    "body": """
+      <template lang="">
+        $1
+      </template>
+
+      <script>
+      export default {
+        data() {
+          return {
+            $2
+          }
+        }
+      }
+      </script>
+
+      <style lang="">
+        $3
+      </style>
+    """

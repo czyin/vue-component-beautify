@@ -1,0 +1,27 @@
+{
+  "name": "vue-component-beautify",
+  "version": "0.0.1",
+  "author": "czyin",
+  "description": "beautify .vue file",
+  "keywords": [
+    "atom",
+    "vue",
+    "format",
+    "beautify"
+  ],
+  "description": "",
+  "main": "lib/vue-component-beautify.coffee",
+  "activationCommands": {
+    "atom-workspace": "vue-component-beautify:beautify"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "js-beautify": "^1.6.11"
+  }
+}
