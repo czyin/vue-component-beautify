@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle vue-component-beautify'
+      'command': 'vue-component-beautify:beautify'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'vue-component-beautify'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'vue-component-beautify:beautify'
+        }
+      ]
+    ]
+  }
+]
